@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JSAddToCartAnmationVC.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    JSAddToCartAnmationVC *addToCartVC = [[JSAddToCartAnmationVC alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:addToCartVC];
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 

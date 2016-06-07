@@ -1,15 +1,14 @@
 //
-//  ViewController.h
+//  JSAddToCartAnmationVC.h
 //  JSAddToCartAnmation
 //
-//  Created by 乔同新 on 16/6/5.
+//  Created by 乔同新 on 16/6/7.
 //  Copyright © 2016年 乔同新. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface JSAddToCartAnmationVC : UIViewController
 
 
 @end
-
